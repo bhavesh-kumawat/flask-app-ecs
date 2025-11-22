@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  flask-app:
+    image: flask-app        
+    ports:
+      - "80:80"
+    restart: always
